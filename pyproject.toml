@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "crashbytes-testkit"
-version = "1.0.0"
+version = "1.1.0"
 description = "Test data builders for Python — auto-generate dataclass instances from type hints."
 readme = "README.md"
 license = "MIT"
@@ -24,7 +24,7 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest", "pytest-cov", "mypy", "ruff"]
+dev = ["pytest>=9.0", "pytest-cov>=7.1", "mypy>=1.20", "ruff>=0.15"]
 
 [project.urls]
 Homepage = "https://github.com/CrashBytes/crashbytes-testkit"
