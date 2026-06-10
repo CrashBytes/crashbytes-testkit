@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "crashbytes-testkit"
-version = "1.1.0"
+version = "1.1.1"
 description = "Test data builders for Python — auto-generate dataclass instances from type hints."
 readme = "README.md"
 license = "MIT"
